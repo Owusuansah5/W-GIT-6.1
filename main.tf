@@ -9,3 +9,8 @@ resource "aws_lightsail_instance" "dev_instance" {
 
   
 }
+
+resource "aws_iam_user" "dev_user" {
+  name = "Francis"
+  
+}
